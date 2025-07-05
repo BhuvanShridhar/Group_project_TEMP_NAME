@@ -1,11 +1,9 @@
 {
   "name": "group_project_temp_name",
   "version": "1.0.0",
+  "private": true,
   "main": "Register.js",
-  "scripts": {
-    "dev": "npx live-server --port=3000",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BhuvanShridhar/Group_project_TEMP_NAME.git"
@@ -17,21 +15,12 @@
     "url": "https://github.com/BhuvanShridhar/Group_project_TEMP_NAME/issues"
   },
   "homepage": "https://github.com/BhuvanShridhar/Group_project_TEMP_NAME#readme",
-  "description": "",
-  "dependencies": {
-    "firebase": "^11.10.0"
-  }
-}
-
-{
-  "name": "my-v0-project",
-  "version": "0.1.0",
-  "private": true,
   "scripts": {
     "build": "next build",
     "dev": "next dev",
     "lint": "next lint",
-    "start": "next start"
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
@@ -66,21 +55,25 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cmdk": "1.0.4",
-    "date-fns": "4.1.0",
+    "date-fns": "2.30.0",
+    "dotenv": "^17.0.1",
     "embla-carousel-react": "8.5.1",
-    "firebase": "latest",
+    "express": "^5.1.0",
+    "firebase": "^11.10.0",
     "input-otp": "1.4.1",
     "lucide-react": "^0.454.0",
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.16.1",
     "next": "15.2.4",
     "next-themes": "^0.4.4",
-    "react": "^19",
+    "react": "^18",
     "react-day-picker": "8.10.1",
-    "react-dom": "^19",
+    "react-dom": "^18",
     "react-hook-form": "^7.54.1",
     "react-resizable-panels": "^2.1.7",
     "recharts": "2.15.0",
     "sonner": "^1.7.1",
-    "tailwind-merge": "^2.5.5",
+    "tailwind-merge": "^2.6.0",
     "tailwindcss-animate": "^1.0.7",
     "vaul": "^0.9.6",
     "zod": "^3.24.1"
