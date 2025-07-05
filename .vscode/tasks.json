@@ -1,0 +1,12 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Install live-server and run dev server",
+			"command": "npm install live-server --save-dev && npx live-server --port=3000",
+			"isBackground": true,
+			"group": "build"
+		}
+	]
+}
